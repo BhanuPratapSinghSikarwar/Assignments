@@ -1,0 +1,20 @@
+Dataset_1.csv : Data pertaining to merchant activity days.
+Problem Statement  : Give the first date after which merchant activity was observed for one, two or three consecutive days for which activity happened(at a merchant level). 
+
+For eg : If you look for merch_id 1937, the first activity happened on 10th March 2017, the first date after which activity was seen for 2 consecutive dates will be 14th March 2017 and so on.
+
+Expected Final Result Format : CSV and R Script
+Inline image 3
+
+Dataset_2.csv : This contains the customer to merchant call records along with status. 
+Problem Statement: Please go through the attached data and share insights with us. See how we can improve the call drop rate basis the pattern in the data.
+merch_id - Merchant's Unique ID
+outlet_id - Merchant may have multiple outlets.
+customer_id - Merchants(Restaurant) Customer Calling on their Unique Number
+call_duration - in Seconds
+call_status
+0 - Call Disconnected By User
+1 - Call Not picked by outlet
+2 - Connected Calls
+3 - Voicemails
+Expected Final Result : Analysis Report and Rscript.
